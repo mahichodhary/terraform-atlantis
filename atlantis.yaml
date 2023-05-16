@@ -1,0 +1,10 @@
+version: 3
+projects:
+# If two or more projects have the same dir and workspace, they must also have
+# a 'name' key to differentiate them.
+- name: project1-development
+  dir: EC2
+  workflow: development
+- name: project1-production
+  dir: EC2
+  workflow: production
